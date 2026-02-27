@@ -1,5 +1,4 @@
-\# 🔐 Web Security Scanner v1.0
-
+# 🔐 Web Security Scanner v2.0
 
 
 A beginner-friendly Python-based web security scanner that analyzes basic security configurations of a website.
@@ -18,13 +17,11 @@ This tool scans a website and evaluates its basic security posture by checking:
 
 
 
-\- Website reachability  
-
-\- HTTPS usage  
-
-\- Presence of important security headers  
-
-\- Overall risk level (Low / Medium / High)  
+- Website reachability  
+- HTTPS usage  
+- Presence of important security headers  
+- Basic TCP port scanning (common ports)  
+- Overall risk level (Low / Medium / High)
 
 
 
@@ -44,7 +41,9 @@ The goal of this project is to practice cybersecurity fundamentals and automatio
 
 \- requests library  
 
-\- datetime module  
+\- datetime module 
+ 
+\- socket (for port scanning)
 
 
 
